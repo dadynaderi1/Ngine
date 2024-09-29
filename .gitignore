@@ -30,6 +30,9 @@
 .idea/
 cmake-build-debug-visual-studio/
 Deps/
+build/
+.idea/
+
 
 # Executables
 *.exe
