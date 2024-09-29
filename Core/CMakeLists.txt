@@ -24,13 +24,13 @@ set(SRCS
         src/main.cpp)
 
 if(APPLE)
-    =
+
     add_executable(main MACOSX_BUNDLE src/main.cpp)
 
     
     set_target_properties(main PROPERTIES MACOSX_BUNDLE_INFO_PLIST ${CMAKE_CURRENT_SOURCE_DIR}/Info.plist)
 else()
-    .
+
     add_executable(main src/main.cpp
                      )
 endif()
