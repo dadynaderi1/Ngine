@@ -26,6 +26,10 @@
 *.la
 *.a
 *.lib
+.vscode/
+.idea/
+cmake-build-debug-visual-studio/
+Deps/
 
 # Executables
 *.exe
