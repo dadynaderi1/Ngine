@@ -19,5 +19,5 @@
  cmake -S . -B build
  cmake --build build
 ```
-> ##recommendation 
+> **recommendation**
 > open the root folder of project (Ngine) in VSC or CLION
