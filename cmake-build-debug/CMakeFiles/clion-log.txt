@@ -1,0 +1,17 @@
+"N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=N:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe" -G Ninja N:\NGine
+-- Including Win32 support
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Documentation generation requires Doxygen 1.9.8 or later
+-- GLM: Version 1.0.2
+-- GLM: Build with C++ features auto detection
+CMake Error at Engine/CMakeLists.txt:11 (add_subdirectory):
+  add_subdirectory given source "external/spdlog" which is not an existing
+  directory.
+
+
+-- Using module to find Vulkan
+-- Path to Vulkan lib: C:/VulkanSDK/1.3.290.0/Lib/vulkan-1.lib
+-- Path to Vulkan include: C:/VulkanSDK/1.3.290.0/Include
+-- Configuring incomplete, errors occurred!
+See also "N:/NGine/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "N:/NGine/cmake-build-debug/CMakeFiles/CMakeError.log".
