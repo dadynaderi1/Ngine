@@ -1,6 +1,7 @@
 # Dependencies
 - GLFW3
 - GLM
+- SPDLOG
 - VULKAN
 
 just download and install **[LUNARG SDK](https://vulkan.lunarg.com/sdk/home)**
