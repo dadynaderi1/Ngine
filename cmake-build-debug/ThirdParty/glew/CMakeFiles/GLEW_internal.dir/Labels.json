@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal"
+		},
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal.rule"
+		},
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal-complete.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-build.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-configure.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-download.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-install.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-mkdir.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-patch.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GLEW_internal"
+		],
+		"name" : "GLEW_internal"
+	}
+}

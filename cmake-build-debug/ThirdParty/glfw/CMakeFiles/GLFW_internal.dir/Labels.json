@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal"
+		},
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal.rule"
+		},
+		{
+			"file" : "N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal-complete.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-build.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-configure.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-download.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-install.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-mkdir.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-patch.rule"
+		},
+		{
+			"file" : "N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"GLFW_internal"
+		],
+		"name" : "GLFW_internal"
+	}
+}
