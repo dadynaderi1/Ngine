@@ -3,7 +3,7 @@
 - GLM
 - VULKAN
 
-just install the sdk for vulkan
+just download and install **[LUNARG SDK](https://vulkan.lunarg.com/sdk/home)**
 ## Build
 
 ```
