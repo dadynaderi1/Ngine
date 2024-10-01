@@ -42,7 +42,6 @@ include CMakeFiles/rules.ninja
 cmake_ninja_workdir = N$:/NGine/cmake-build-debug/
 
 #############################################
-<<<<<<< HEAD
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
@@ -64,11 +63,6 @@ build CMakeFiles/install.util: CUSTOM_COMMAND all
   restat = 1
 
 build install: phony CMakeFiles/install.util
-=======
-# Utility command for NGine_Core
-
-build NGine_Core: phony CMakeFiles/NGine_Core CMakeFiles/NGine_Core-complete ../Deps/Stamp/NGine_Core/NGine_Core-done ../Deps/Stamp/NGine_Core/NGine_Core-build ../Deps/Stamp/NGine_Core/NGine_Core-configure ../Deps/Stamp/NGine_Core/NGine_Core-download ../Deps/Stamp/NGine_Core/NGine_Core-install ../Deps/Stamp/NGine_Core/NGine_Core-mkdir ../Deps/Stamp/NGine_Core/NGine_Core-patch ../Deps/Stamp/NGine_Core/NGine_Core-update ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
->>>>>>> master
 
 
 #############################################
@@ -95,7 +89,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-<<<<<<< HEAD
 # Utility command for list_install_components
 
 build list_install_components: phony
@@ -111,82 +104,6 @@ build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
   restat = 1
 
 build install/strip: phony CMakeFiles/install/strip.util
-=======
-# Phony custom command for CMakeFiles\NGine_Core
-
-build CMakeFiles/NGine_Core | ${cmake_ninja_workdir}CMakeFiles/NGine_Core: phony CMakeFiles/NGine_Core-complete || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-
-
-#############################################
-# Custom command for CMakeFiles\NGine_Core-complete
-
-build CMakeFiles/NGine_Core-complete ../Deps/Stamp/NGine_Core/NGine_Core-done | ${cmake_ninja_workdir}CMakeFiles/NGine_Core-complete ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-done: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-install ../Deps/Stamp/NGine_Core/NGine_Core-mkdir ../Deps/Stamp/NGine_Core/NGine_Core-download ../Deps/Stamp/NGine_Core/NGine_Core-update ../Deps/Stamp/NGine_Core/NGine_Core-patch ../Deps/Stamp/NGine_Core/NGine_Core-configure ../Deps/Stamp/NGine_Core/NGine_Core-build ../Deps/Stamp/NGine_Core/NGine_Core-install || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/cmake-build-debug/CMakeFiles && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/cmake-build-debug/CMakeFiles/NGine_Core-complete && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-done"
-  DESC = Completed 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-build
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-build | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-build: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-configure || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --build ."
-  DESC = Performing build step for 'NGine_Core'
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-configure
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-configure | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-configure: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-done ../Deps/Stamp/GLEW_internal/GLEW_internal-done ../Deps/tmp/NGine_Core/NGine_Core-cfgcmd.txt ../Deps/tmp/NGine_Core/NGine_Core-cache-Debug.cmake ../Deps/Stamp/NGine_Core/NGine_Core-patch || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DSTAGED_INSTALL_PREFIX=N:/NGine/cmake-build-debug/stage -GNinja -CN:/NGine/Deps/tmp/NGine_Core/NGine_Core-cache-Debug.cmake N:/NGine/Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-configure"
-  DESC = Performing configure step for 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-download
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-download | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-download: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-mkdir || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-download"
-  DESC = No download step for 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-install
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-install | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-install: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-build || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-install"
-  DESC = No install step for 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-mkdir
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-mkdir | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-mkdir: CUSTOM_COMMAND || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Build/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Install/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/tmp/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Download/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/NGine_Core && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-mkdir"
-  DESC = Creating directories for 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-patch
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-patch | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-patch: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-update || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-patch"
-  DESC = No patch step for 'NGine_Core'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\NGine_Core\NGine_Core-update
-
-build ../Deps/Stamp/NGine_Core/NGine_Core-update | ${cmake_ninja_workdir}../Deps/Stamp/NGine_Core/NGine_Core-update: CUSTOM_COMMAND ../Deps/Stamp/NGine_Core/NGine_Core-download || ThirdParty/glew/GLEW_internal ThirdParty/glfw/GLFW_internal
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/NGine_Core/NGine_Core-update"
-  DESC = No update step for 'NGine_Core'
-  restat = 1
->>>>>>> master
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -195,7 +112,6 @@ build ../Deps/Stamp/NGine_Core/NGine_Core-update | ${cmake_ninja_workdir}../Deps
 
 
 #############################################
-<<<<<<< HEAD
 # Utility command for install/local
 
 build App/CMakeFiles/install/local.util: CUSTOM_COMMAND App/all
@@ -245,6 +161,8 @@ build App/CMakeFiles/Editor.dir/src/main.cpp.obj: CXX_COMPILER__Editor_Debug N$:
   INCLUDES = -IN:/NGine/App/NGine_Core -IN:/NGine/App/OpenGL::GL -IN:/NGine/App/libglew_static -IN:/NGine/Engine/include -IN:/NGine/Engine/Vulkan_LIBRARIES -IN:/NGine/Engine/spdlog -IN:/NGine/Engine/glfw -IN:/NGine/Engine/glm -IN:/NGine/Engine/external/glm -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/spdlog/include -isystem C:/VulkanSDK/1.3.290.0/Include
   OBJECT_DIR = App\CMakeFiles\Editor.dir
   OBJECT_FILE_DIR = App\CMakeFiles\Editor.dir\src
+  TARGET_COMPILE_PDB = App\CMakeFiles\Editor.dir\
+  TARGET_PDB = App\Editor.pdb
 
 
 # =============================================================================
@@ -260,36 +178,21 @@ build App/Editor.exe: CXX_EXECUTABLE_LINKER__Editor_Debug App/CMakeFiles/Editor.
   OBJECT_DIR = App\CMakeFiles\Editor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = App\CMakeFiles\Editor.dir\
   TARGET_FILE = App\Editor.exe
   TARGET_IMPLIB = App\libEditor.dll.a
-  TARGET_PDB = Editor.exe.dbg
-=======
-# Utility command for edit_cache
-
-build ThirdParty/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build ThirdParty/edit_cache: phony ThirdParty/CMakeFiles/edit_cache.util
->>>>>>> master
+  TARGET_PDB = App\Editor.pdb
 
 
 #############################################
 # Utility command for rebuild_cache
 
-<<<<<<< HEAD
 build App/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\App && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
-=======
-build ThirdParty/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
->>>>>>> master
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-<<<<<<< HEAD
 build App/rebuild_cache: phony App/CMakeFiles/rebuild_cache.util
 
 
@@ -313,18 +216,10 @@ build App/install/strip: phony App/CMakeFiles/install/strip.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # N:/NGine/CMakeLists.txt
-=======
-build ThirdParty/rebuild_cache: phony ThirdParty/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# N:/NGine/ThirdParty/CMakeLists.txt
->>>>>>> master
 # =============================================================================
 
 
 #############################################
-<<<<<<< HEAD
 # Utility command for list_install_components
 
 build Engine/list_install_components: phony
@@ -345,6 +240,8 @@ build Engine/CMakeFiles/NGine_Core.dir/src/Engine.cpp.obj: CXX_COMPILER__NGine_C
   INCLUDES = -IN:/NGine/Engine/include -IN:/NGine/Engine/Vulkan_LIBRARIES -IN:/NGine/Engine/spdlog -IN:/NGine/Engine/glfw -IN:/NGine/Engine/glm -IN:/NGine/Engine/external/glm -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/spdlog/include -isystem C:/VulkanSDK/1.3.290.0/Include
   OBJECT_DIR = Engine\CMakeFiles\NGine_Core.dir
   OBJECT_FILE_DIR = Engine\CMakeFiles\NGine_Core.dir\src
+  TARGET_COMPILE_PDB = Engine\CMakeFiles\NGine_Core.dir\NGine_Core.pdb
+  TARGET_PDB = Engine\libNGine_Core.pdb
 
 build Engine/CMakeFiles/NGine_Core.dir/src/Window.cpp.obj: CXX_COMPILER__NGine_Core_Debug N$:/NGine/Engine/src/Window.cpp || cmake_object_order_depends_target_NGine_Core
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -353,6 +250,8 @@ build Engine/CMakeFiles/NGine_Core.dir/src/Window.cpp.obj: CXX_COMPILER__NGine_C
   INCLUDES = -IN:/NGine/Engine/include -IN:/NGine/Engine/Vulkan_LIBRARIES -IN:/NGine/Engine/spdlog -IN:/NGine/Engine/glfw -IN:/NGine/Engine/glm -IN:/NGine/Engine/external/glm -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/spdlog/include -isystem C:/VulkanSDK/1.3.290.0/Include
   OBJECT_DIR = Engine\CMakeFiles\NGine_Core.dir
   OBJECT_FILE_DIR = Engine\CMakeFiles\NGine_Core.dir\src
+  TARGET_COMPILE_PDB = Engine\CMakeFiles\NGine_Core.dir\NGine_Core.pdb
+  TARGET_PDB = Engine\libNGine_Core.pdb
 
 
 # =============================================================================
@@ -367,8 +266,9 @@ build Engine/libNGine_Core.a: CXX_STATIC_LIBRARY_LINKER__NGine_Core_Debug Engine
   OBJECT_DIR = Engine\CMakeFiles\NGine_Core.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Engine\CMakeFiles\NGine_Core.dir\NGine_Core.pdb
   TARGET_FILE = Engine\libNGine_Core.a
-  TARGET_PDB = NGine_Core.a.dbg
+  TARGET_PDB = Engine\libNGine_Core.pdb
 
 
 #############################################
@@ -393,48 +293,28 @@ build Engine/CMakeFiles/install.util: CUSTOM_COMMAND Engine/all
   restat = 1
 
 build Engine/install: phony Engine/CMakeFiles/install.util
-=======
-# Utility command for GLFW_internal
-
-build ThirdParty/glfw/GLFW_internal: phony ThirdParty/glfw/CMakeFiles/GLFW_internal ThirdParty/glfw/CMakeFiles/GLFW_internal-complete ../Deps/Stamp/GLFW_internal/GLFW_internal-done ../Deps/Stamp/GLFW_internal/GLFW_internal-build ../Deps/Stamp/GLFW_internal/GLFW_internal-configure ../Deps/Stamp/GLFW_internal/GLFW_internal-download ../Deps/Stamp/GLFW_internal/GLFW_internal-install ../Deps/Stamp/GLFW_internal/GLFW_internal-mkdir ../Deps/Stamp/GLFW_internal/GLFW_internal-patch ../Deps/Stamp/GLFW_internal/GLFW_internal-update
->>>>>>> master
 
 
 #############################################
 # Utility command for edit_cache
 
-<<<<<<< HEAD
 build Engine/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\Engine && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build Engine/edit_cache: phony Engine/CMakeFiles/edit_cache.util
-=======
-build ThirdParty/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build ThirdParty/glfw/edit_cache: phony ThirdParty/glfw/CMakeFiles/edit_cache.util
->>>>>>> master
 
 
 #############################################
 # Utility command for rebuild_cache
 
-<<<<<<< HEAD
 build Engine/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\Engine && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
-=======
-build ThirdParty/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
->>>>>>> master
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-<<<<<<< HEAD
 build Engine/rebuild_cache: phony Engine/CMakeFiles/rebuild_cache.util
 
 
@@ -452,96 +332,10 @@ build Engine/install/strip: phony Engine/CMakeFiles/install/strip.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # N:/NGine/Engine/CMakeLists.txt
-=======
-build ThirdParty/glfw/rebuild_cache: phony ThirdParty/glfw/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Phony custom command for ThirdParty\glfw\CMakeFiles\GLFW_internal
-
-build ThirdParty/glfw/CMakeFiles/GLFW_internal | ${cmake_ninja_workdir}ThirdParty/glfw/CMakeFiles/GLFW_internal: phony ThirdParty/glfw/CMakeFiles/GLFW_internal-complete
-
-
-#############################################
-# Custom command for ThirdParty\glfw\CMakeFiles\GLFW_internal-complete
-
-build ThirdParty/glfw/CMakeFiles/GLFW_internal-complete ../Deps/Stamp/GLFW_internal/GLFW_internal-done | ${cmake_ninja_workdir}ThirdParty/glfw/CMakeFiles/GLFW_internal-complete ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-done: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-install ../Deps/Stamp/GLFW_internal/GLFW_internal-mkdir ../Deps/Stamp/GLFW_internal/GLFW_internal-download ../Deps/Stamp/GLFW_internal/GLFW_internal-update ../Deps/Stamp/GLFW_internal/GLFW_internal-patch ../Deps/Stamp/GLFW_internal/GLFW_internal-configure ../Deps/Stamp/GLFW_internal/GLFW_internal-build ../Deps/Stamp/GLFW_internal/GLFW_internal-install
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal-complete && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-done"
-  DESC = Completed 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-build
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-build | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-build: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-configure
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-build-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-build"
-  DESC = Performing build step for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-configure
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-configure | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-configure: CUSTOM_COMMAND ../Deps/tmp/GLFW_internal/GLFW_internal-cfgcmd.txt ../Deps/Stamp/GLFW_internal/GLFW_internal-patch
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-configure-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-configure"
-  DESC = Performing configure step for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-download
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-download | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-download: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-gitinfo.txt ../Deps/Stamp/GLFW_internal/GLFW_internal-mkdir
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Source && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/tmp/GLFW_internal/GLFW_internal-gitclone.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-download"
-  DESC = Performing download step (git clone) for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-install
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-install | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-install: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-build
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-install-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-install"
-  DESC = Performing install step for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-mkdir
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-mkdir | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-mkdir: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Source/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Build/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Install/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/tmp/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Download/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-mkdir"
-  DESC = Creating directories for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-patch
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-patch | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-patch: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-update
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-patch"
-  DESC = No patch step for 'GLFW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLFW_internal\GLFW_internal-update
-
-build ../Deps/Stamp/GLFW_internal/GLFW_internal-update | ${cmake_ninja_workdir}../Deps/Stamp/GLFW_internal/GLFW_internal-update: CUSTOM_COMMAND ../Deps/Stamp/GLFW_internal/GLFW_internal-download
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Source\GLFW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLFW_internal/GLFW_internal-update"
-  DESC = No update step for 'GLFW_internal'
-  restat = 1
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# N:/NGine/ThirdParty/CMakeLists.txt
->>>>>>> master
 # =============================================================================
 
 
 #############################################
-<<<<<<< HEAD
 # Utility command for install/strip
 
 build Engine/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND Engine/external/glfw/all
@@ -581,48 +375,28 @@ build Engine/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND Engine/extern
   restat = 1
 
 build Engine/external/glfw/install: phony Engine/external/glfw/CMakeFiles/install.util
-=======
-# Utility command for GLEW_internal
-
-build ThirdParty/glew/GLEW_internal: phony ThirdParty/glew/CMakeFiles/GLEW_internal ThirdParty/glew/CMakeFiles/GLEW_internal-complete ../Deps/Stamp/GLEW_internal/GLEW_internal-done ../Deps/Stamp/GLEW_internal/GLEW_internal-build ../Deps/Stamp/GLEW_internal/GLEW_internal-configure ../Deps/Stamp/GLEW_internal/GLEW_internal-download ../Deps/Stamp/GLEW_internal/GLEW_internal-install ../Deps/Stamp/GLEW_internal/GLEW_internal-mkdir ../Deps/Stamp/GLEW_internal/GLEW_internal-patch ../Deps/Stamp/GLEW_internal/GLEW_internal-update
->>>>>>> master
 
 
 #############################################
 # Utility command for edit_cache
 
-<<<<<<< HEAD
 build Engine/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\Engine\external\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build Engine/external/glfw/edit_cache: phony Engine/external/glfw/CMakeFiles/edit_cache.util
-=======
-build ThirdParty/glew/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glew && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build ThirdParty/glew/edit_cache: phony ThirdParty/glew/CMakeFiles/edit_cache.util
->>>>>>> master
 
 
 #############################################
 # Utility command for rebuild_cache
 
-<<<<<<< HEAD
 build Engine/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\Engine\external\glfw && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
-=======
-build ThirdParty/glew/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glew && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SN:\NGine -BN:\NGine\cmake-build-debug"
->>>>>>> master
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-<<<<<<< HEAD
 build Engine/external/glfw/rebuild_cache: phony Engine/external/glfw/CMakeFiles/rebuild_cache.util
 
 
@@ -671,6 +445,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__gl
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -679,6 +455,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -687,6 +465,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -695,6 +475,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__gl
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -703,6 +485,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__g
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -711,6 +495,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glf
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -719,6 +505,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glf
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -727,6 +515,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -735,6 +525,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPI
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -743,6 +535,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -751,6 +545,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILE
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -759,6 +555,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -767,6 +565,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPIL
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -775,6 +575,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILE
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -783,6 +585,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER_
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -791,6 +595,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILE
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -799,6 +605,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER_
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -807,6 +615,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPI
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -815,6 +625,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPIL
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -823,6 +635,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILE
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 build Engine/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_Debug N$:/NGine/Engine/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -831,6 +645,8 @@ build Engine/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER
   INCLUDES = -IN:/NGine/Engine/external/glfw/include -IN:/NGine/Engine/external/glfw/src -IN:/NGine/cmake-build-debug/Engine/external/glfw/src
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -845,8 +661,9 @@ build Engine/external/glfw/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug E
   OBJECT_DIR = Engine\external\glfw\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Engine\external\glfw\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = Engine\external\glfw\src\libglfw3.a
-  TARGET_PDB = glfw3.a.dbg
+  TARGET_PDB = Engine\external\glfw\src\libglfw3.pdb
 
 
 #############################################
@@ -1093,6 +910,8 @@ build Engine/external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: CXX_COMPILE
   INCLUDES = -IN:/NGine/Engine/external/glm
   OBJECT_DIR = Engine\external\glm\glm\CMakeFiles\glm.dir
   OBJECT_FILE_DIR = Engine\external\glm\glm\CMakeFiles\glm.dir\detail
+  TARGET_COMPILE_PDB = Engine\external\glm\glm\CMakeFiles\glm.dir\glm.pdb
+  TARGET_PDB = Engine\external\glm\glm\libglm.pdb
 
 
 # =============================================================================
@@ -1107,8 +926,9 @@ build Engine/external/glm/glm/libglm.a: CXX_STATIC_LIBRARY_LINKER__glm_Debug Eng
   OBJECT_DIR = Engine\external\glm\glm\CMakeFiles\glm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Engine\external\glm\glm\CMakeFiles\glm.dir\glm.pdb
   TARGET_FILE = Engine\external\glm\glm\libglm.a
-  TARGET_PDB = glm.a.dbg
+  TARGET_PDB = Engine\external\glm\glm\libglm.pdb
 
 
 #############################################
@@ -1178,6 +998,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: CXX_COMPI
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1186,6 +1008,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: CXX
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1194,6 +1018,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: CXX_
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1202,6 +1028,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: CXX_C
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/async.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1210,6 +1038,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj: CXX_COMPIL
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/cfg.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1218,6 +1048,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: CXX_COMPILER
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj: CXX_COMPILER__spdlog_Debug N$:/NGine/Engine/external/spdlog/src/bundled_fmtlib_format.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DSPDLOG_COMPILED_LIB
@@ -1226,6 +1058,8 @@ build Engine/external/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp
   INCLUDES = -IN:/NGine/Engine/external/spdlog/include
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir\src
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 
 # =============================================================================
@@ -1240,8 +1074,9 @@ build Engine/external/spdlog/libspdlogd.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Deb
   OBJECT_DIR = Engine\external\spdlog\CMakeFiles\spdlog.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = Engine\external\spdlog\CMakeFiles\spdlog.dir\spdlog.pdb
   TARGET_FILE = Engine\external\spdlog\libspdlogd.a
-  TARGET_PDB = spdlogd.a.dbg
+  TARGET_PDB = Engine\external\spdlog\libspdlogd.pdb
 
 
 #############################################
@@ -1334,94 +1169,6 @@ build spdlog: phony Engine/external/spdlog/libspdlogd.a
 build uninstall: phony Engine/external/glfw/uninstall
 
 build update_mappings: phony Engine/external/glfw/src/update_mappings
-=======
-build ThirdParty/glew/rebuild_cache: phony ThirdParty/glew/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Phony custom command for ThirdParty\glew\CMakeFiles\GLEW_internal
-
-build ThirdParty/glew/CMakeFiles/GLEW_internal | ${cmake_ninja_workdir}ThirdParty/glew/CMakeFiles/GLEW_internal: phony ThirdParty/glew/CMakeFiles/GLEW_internal-complete
-
-
-#############################################
-# Custom command for ThirdParty\glew\CMakeFiles\GLEW_internal-complete
-
-build ThirdParty/glew/CMakeFiles/GLEW_internal-complete ../Deps/Stamp/GLEW_internal/GLEW_internal-done | ${cmake_ninja_workdir}ThirdParty/glew/CMakeFiles/GLEW_internal-complete ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-done: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-install ../Deps/Stamp/GLEW_internal/GLEW_internal-mkdir ../Deps/Stamp/GLEW_internal/GLEW_internal-download ../Deps/Stamp/GLEW_internal/GLEW_internal-update ../Deps/Stamp/GLEW_internal/GLEW_internal-patch ../Deps/Stamp/GLEW_internal/GLEW_internal-configure ../Deps/Stamp/GLEW_internal/GLEW_internal-build ../Deps/Stamp/GLEW_internal/GLEW_internal-install
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glew && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal-complete && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-done"
-  DESC = Completed 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-build
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-build | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-build: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-configure
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-build-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-build"
-  DESC = Performing build step for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-configure
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-configure | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-configure: CUSTOM_COMMAND ../Deps/tmp/GLEW_internal/GLEW_internal-cfgcmd.txt ../Deps/Stamp/GLEW_internal/GLEW_internal-patch
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-configure-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-configure"
-  DESC = Performing configure step for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-download
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-download | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-download: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-urlinfo.txt ../Deps/Stamp/GLEW_internal/GLEW_internal-mkdir
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Source && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/download-GLEW_internal.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/verify-GLEW_internal.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/extract-GLEW_internal.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-download"
-  DESC = Performing download step (download, verify and extract) for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-install
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-install | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-install: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-build
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Build\GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -P N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-install-Debug.cmake && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-install"
-  DESC = Performing install step for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-mkdir
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-mkdir | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-mkdir: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glew && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Source/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Build/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Install/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/tmp/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Download/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E make_directory N:/NGine/Deps/Stamp/GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-mkdir"
-  DESC = Creating directories for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-patch
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-patch | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-patch: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-update
-  COMMAND = cmd.exe /C "cd /D N:\NGine\cmake-build-debug\ThirdParty\glew && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-patch"
-  DESC = No patch step for 'GLEW_internal'
-  restat = 1
-
-
-#############################################
-# Custom command for ..\Deps\Stamp\GLEW_internal\GLEW_internal-update
-
-build ../Deps/Stamp/GLEW_internal/GLEW_internal-update | ${cmake_ninja_workdir}../Deps/Stamp/GLEW_internal/GLEW_internal-update: CUSTOM_COMMAND ../Deps/Stamp/GLEW_internal/GLEW_internal-download
-  COMMAND = cmd.exe /C "cd /D N:\NGine\Deps\Source\GLEW_internal && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo_append && "N:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E touch N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-update"
-  DESC = No update step for 'GLEW_internal'
-  restat = 1
-
-# =============================================================================
-# Target aliases.
-
-build GLEW_internal: phony ThirdParty/glew/GLEW_internal
-
-build GLFW_internal: phony ThirdParty/glfw/GLFW_internal
->>>>>>> master
 
 # =============================================================================
 # Folder targets.
@@ -1431,42 +1178,25 @@ build GLFW_internal: phony ThirdParty/glfw/GLFW_internal
 #############################################
 # Folder: N:/NGine/cmake-build-debug
 
-<<<<<<< HEAD
 build all: phony App/all Engine/all
-=======
-build all: phony NGine_Core ThirdParty/all
->>>>>>> master
 
 # =============================================================================
 
 #############################################
-<<<<<<< HEAD
 # Folder: N:/NGine/cmake-build-debug/App
 
 build App/all: phony App/Editor.exe
-=======
-# Folder: N:/NGine/cmake-build-debug/ThirdParty
-
-build ThirdParty/all: phony ThirdParty/glfw/all ThirdParty/glew/all
->>>>>>> master
 
 # =============================================================================
 
 #############################################
-<<<<<<< HEAD
 # Folder: N:/NGine/cmake-build-debug/Engine
 
 build Engine/all: phony Engine/libNGine_Core.a Engine/external/glfw/all Engine/external/glm/all Engine/external/spdlog/all
-=======
-# Folder: N:/NGine/cmake-build-debug/ThirdParty/glew
-
-build ThirdParty/glew/all: phony ThirdParty/glew/GLEW_internal
->>>>>>> master
 
 # =============================================================================
 
 #############################################
-<<<<<<< HEAD
 # Folder: N:/NGine/cmake-build-debug/Engine/external/glfw
 
 build Engine/external/glfw/all: phony Engine/external/glfw/src/all Engine/external/glfw/docs/all
@@ -1505,11 +1235,6 @@ build Engine/external/glm/glm/all: phony Engine/external/glm/glm/libglm.a
 # Folder: N:/NGine/cmake-build-debug/Engine/external/spdlog
 
 build Engine/external/spdlog/all: phony Engine/external/spdlog/libspdlogd.a
-=======
-# Folder: N:/NGine/cmake-build-debug/ThirdParty/glfw
-
-build ThirdParty/glfw/all: phony ThirdParty/glfw/GLFW_internal
->>>>>>> master
 
 # =============================================================================
 # Built-in targets
@@ -1518,22 +1243,14 @@ build ThirdParty/glfw/all: phony ThirdParty/glfw/GLFW_internal
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-<<<<<<< HEAD
-build build.ninja: RERUN_CMAKE | ../App/CMakeLists.txt ../CMakeLists.txt ../Engine/CMakeLists.txt ../Engine/external/glfw/CMakeLists.txt ../Engine/external/glfw/CMake/cmake_uninstall.cmake.in ../Engine/external/glfw/CMake/glfw3.pc.in ../Engine/external/glfw/CMake/glfw3Config.cmake.in ../Engine/external/glfw/docs/CMakeLists.txt ../Engine/external/glfw/src/CMakeLists.txt ../Engine/external/glm/CMakeLists.txt ../Engine/external/glm/glm/CMakeLists.txt ../Engine/external/spdlog/CMakeLists.txt ../Engine/external/spdlog/cmake/ide.cmake ../Engine/external/spdlog/cmake/utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckLibraryExists.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindDoxygen.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindThreads.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindVulkan.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake
-=======
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../Deps/tmp/GLEW_internal/GLEW_internal-cfgcmd.txt.in ../Deps/tmp/GLFW_internal/GLFW_internal-cfgcmd.txt.in ../Deps/tmp/NGine_Core/NGine_Core-cfgcmd.txt.in ../ThirdParty/CMakeLists.txt ../ThirdParty/glew/CMakeLists.txt ../ThirdParty/glfw/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject-download.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindGit.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/RepositoryInfo.txt.in
->>>>>>> master
+build build.ninja: RERUN_CMAKE | ../App/CMakeLists.txt ../CMakeLists.txt ../Engine/CMakeLists.txt ../Engine/external/glfw/CMakeLists.txt ../Engine/external/glfw/CMake/cmake_uninstall.cmake.in ../Engine/external/glfw/CMake/glfw3.pc.in ../Engine/external/glfw/CMake/glfw3Config.cmake.in ../Engine/external/glfw/docs/CMakeLists.txt ../Engine/external/glfw/src/CMakeLists.txt ../Engine/external/glm/CMakeLists.txt ../Engine/external/glm/glm/CMakeLists.txt ../Engine/external/spdlog/CMakeLists.txt ../Engine/external/spdlog/cmake/ide.cmake ../Engine/external/spdlog/cmake/utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.c.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckLibraryExists.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindDoxygen.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindThreads.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindVulkan.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-<<<<<<< HEAD
-build ../App/CMakeLists.txt ../CMakeLists.txt ../Engine/CMakeLists.txt ../Engine/external/glfw/CMakeLists.txt ../Engine/external/glfw/CMake/cmake_uninstall.cmake.in ../Engine/external/glfw/CMake/glfw3.pc.in ../Engine/external/glfw/CMake/glfw3Config.cmake.in ../Engine/external/glfw/docs/CMakeLists.txt ../Engine/external/glfw/src/CMakeLists.txt ../Engine/external/glm/CMakeLists.txt ../Engine/external/glm/glm/CMakeLists.txt ../Engine/external/spdlog/CMakeLists.txt ../Engine/external/spdlog/cmake/ide.cmake ../Engine/external/spdlog/cmake/utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckLibraryExists.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindDoxygen.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindThreads.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindVulkan.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake: phony
-=======
-build ../CMakeLists.txt ../Deps/tmp/GLEW_internal/GLEW_internal-cfgcmd.txt.in ../Deps/tmp/GLFW_internal/GLFW_internal-cfgcmd.txt.in ../Deps/tmp/NGine_Core/NGine_Core-cfgcmd.txt.in ../ThirdParty/CMakeLists.txt ../ThirdParty/glew/CMakeLists.txt ../ThirdParty/glfw/CMakeLists.txt CMakeCache.txt CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject-download.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/ExternalProject.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindGit.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/RepositoryInfo.txt.in: phony
->>>>>>> master
+build ../App/CMakeLists.txt ../CMakeLists.txt ../Engine/CMakeLists.txt ../Engine/external/glfw/CMakeLists.txt ../Engine/external/glfw/CMake/cmake_uninstall.cmake.in ../Engine/external/glfw/CMake/glfw3.pc.in ../Engine/external/glfw/CMake/glfw3Config.cmake.in ../Engine/external/glfw/docs/CMakeLists.txt ../Engine/external/glfw/src/CMakeLists.txt ../Engine/external/glm/CMakeLists.txt ../Engine/external/glm/glm/CMakeLists.txt ../Engine/external/spdlog/CMakeLists.txt ../Engine/external/spdlog/cmake/ide.cmake ../Engine/external/spdlog/cmake/utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-SameMajorVersion.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCompilerIdDetection.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompileFeatures.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineCompilerId.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeFindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitIncludeInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseImplicitLinkInfo.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeParseLibraryArchitecture.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystem.cmake.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCXXCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestCompilerCommon.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.c.in N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFile.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CheckLibraryExists.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ADSP-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMCC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ARMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/AppleClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Borland-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Bruce-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Clang-DetermineCompilerInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Cray-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Embarcadero-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Fujitsu-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GHS-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-FindBinUtils.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/HP-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IAR-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Intel-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/MSVC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVHPC-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/NVIDIA-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PGI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/PathScale-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/ROCMClang-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SCO-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SDCC-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TI-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/Watcom-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XL-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-C-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindDoxygen.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindThreads.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/FindVulkan.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Internal/FeatureTesting.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-Determine-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake N$:/Program$ Files/JetBrains/CLion$ 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake: phony
 
 
 #############################################

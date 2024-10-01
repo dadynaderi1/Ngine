@@ -39,12 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
   include("N:/NGine/cmake-build-debug/App/cmake_install.cmake")
   include("N:/NGine/cmake-build-debug/Engine/cmake_install.cmake")
-=======
-  include("N:/NGine/cmake-build-debug/ThirdParty/cmake_install.cmake")
->>>>>>> master
 
 endif()
 

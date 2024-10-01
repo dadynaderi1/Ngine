@@ -1,13 +1,13 @@
 # ninja log v5
 1690	12228	7494911275557262	App/Editor.exe	8c01d1890842c4a
-0	443	7494931327253189	build.ninja	5495cd22f832b943
+0	443	7494935361241516	build.ninja	5495cd22f832b943
 7	1690	7494911170292188	App/CMakeFiles/Editor.dir/src/main.cpp.obj	177300a66e8e8989
 2231	2282	7494870326214016	Engine/NGine_Core.lib	231d32313a9359a1
 2955	3024	7494817292029515	Engine/external/glm/glm/glm.lib	a035421a80579613
 12	1750	7494911058411905	Engine/CMakeFiles/NGine_Core.dir/src/Engine.cpp.obj	8a7d04e6e5d5a0eb
-28	11031	7494890530418351	Engine/external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj	e96eae43fdf72615
 29	2726	7494889512429726	Engine/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj	373afc8c518f8c8a
 2692	5012	7494889534970396	Engine/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj	5ba4105a1f7fe7
+28	11031	7494890530418351	Engine/external/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj	e96eae43fdf72615
 5012	6355	7494889549036522	Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	f2c4c8c546beb960
 3208	5350	7494889538815422	Engine/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj	58bf9d372f710c5
 20	2640	7494889511545426	Engine/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj	734bc19daed07368

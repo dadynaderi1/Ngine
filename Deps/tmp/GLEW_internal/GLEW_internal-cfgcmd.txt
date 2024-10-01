@@ -1,1 +1,0 @@
-cmd='N:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/bin/cmake.exe;-DCMAKE_INSTALL_PREFIX=N:/NGine/cmake-build-debug/stage;-DCMAKE_BUILD_TYPE=Debug;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'
