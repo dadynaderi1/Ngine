@@ -2,8 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Deps/Source/GLFW_internal" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Engine/external/gleww" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Engine/external/glfw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Engine/external/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Engine/external/spdlog" vcs="Git" />
