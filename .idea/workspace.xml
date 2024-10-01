@@ -5,13 +5,9 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="NGine" targetName="uninstall" />
-      <config projectName="NGine" targetName="Editor" />
-      <config projectName="NGine" targetName="glm" />
-      <config projectName="NGine" targetName="glfw" />
+      <config projectName="NGine" targetName="GLFW_internal" />
+      <config projectName="NGine" targetName="GLEW_internal" />
       <config projectName="NGine" targetName="NGine_Core" />
-      <config projectName="NGine" targetName="update_mappings" />
-      <config projectName="NGine" targetName="spdlog" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -32,7 +28,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -138,11 +133,11 @@
     <list>
       <item itemvalue="CMake Application.Editor" />
       <item itemvalue="CMake Application.NGine_Core" />
-      <item itemvalue="CMake Application.uninstall" />
       <item itemvalue="CMake Application.glfw" />
-      <item itemvalue="CMake Application.update_mappings" />
       <item itemvalue="CMake Application.glm" />
       <item itemvalue="CMake Application.spdlog" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.update_mappings" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
