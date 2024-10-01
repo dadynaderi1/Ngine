@@ -27,7 +27,7 @@ target_include_directories(${PROJECT_NAME}
         PUBLIC
         include
         Vulkan_LIBRARIES
-
+        spdlog
         glfw
         glm)
 
@@ -38,7 +38,7 @@ target_link_libraries(${PROJECT_NAME}
         glm
         Vulkan::Vulkan
         glfw
-
+        spdlog
 
 
 )

@@ -32,10 +32,16 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "N:/Program Files/JetBrains/CLion 2021.3.4/bin/mingw/bin/objdump.exe")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("N:/NGine/cmake-build-debug/Engine/external/glfw/cmake_install.cmake")
   include("N:/NGine/cmake-build-debug/Engine/external/glm/cmake_install.cmake")
+  include("N:/NGine/cmake-build-debug/Engine/external/spdlog/cmake_install.cmake")
 
 endif()
 

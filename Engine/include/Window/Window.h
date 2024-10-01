@@ -5,8 +5,9 @@
 #ifndef NGINE_WINDOW_H
 #define NGINE_WINDOW_H
 #define GLFW_INCLUDE_VULKAN
+#include <spdlog/spdlog.h>
+
 #include <GLFW/glfw3.h>
-#include <iostream>
 namespace EngineCore
 {
     class Window
@@ -14,13 +15,17 @@ namespace EngineCore
     public:
         Window(int width,int height, const char* windowTitle);
         ~Window();
-
-        static void initWindow();
+        void initWindow(int width,int height,const char* window_t);
+        bool shouldClose(){ return glfwWindowShouldClose(window);}
 
     private:
         const int Width;
         const int Height;
         const char* Title;
+        GLFWwindow *window;
+        bool Running = false;
+
+        void createWindowSurface(VkInstance *instance, VkSurfaceKHR *surface);
     };
 
 }
