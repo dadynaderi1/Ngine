@@ -1,0 +1,13 @@
+# Target labels
+ GLEW_internal
+# Source files and their labels
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal.rule
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal-complete.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-build.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-configure.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-download.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-install.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-mkdir.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-patch.rule
+N:/NGine/Deps/Stamp/GLEW_internal/GLEW_internal-update.rule

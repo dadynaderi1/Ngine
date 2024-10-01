@@ -5,9 +5,15 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="NGine" targetName="uninstall" />
+      <config projectName="NGine" targetName="Editor" />
       <config projectName="NGine" targetName="GLFW_internal" />
+      <config projectName="NGine" targetName="glm" />
       <config projectName="NGine" targetName="GLEW_internal" />
+      <config projectName="NGine" targetName="glfw" />
       <config projectName="NGine" targetName="NGine_Core" />
+      <config projectName="NGine" targetName="update_mappings" />
+      <config projectName="NGine" targetName="spdlog" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -16,8 +22,35 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958e5186-33e3-4fd0-8e7c-da8e0cde179a" name="Changes" comment="vulkan boilerplate is ready">
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+    <list default="true" id="958e5186-33e3-4fd0-8e7c-da8e0cde179a" name="Changes" comment="just wait">
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-dfde095d765b04c9236b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e27744000add85ae36f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6f0d9706e85c6f605855.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-ThirdParty-Debug-7af30cb6e099ffd57e57.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-ThirdParty.glew-Debug-b39c31754cb743e99812.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-ThirdParty.glfw-Debug-ae6a4740a6d6abff72c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-10-01T13-36-18-0984.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-GLEW_internal-Debug-c7ce8ec120b88c7fb592.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-GLFW_internal-Debug-6b7f6ff869ec4419d1b1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NGine_Core-Debug-400483dbbef8c4f8d0b4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-e0aae59a8ae18996638e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NGine_Core.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NGine_Core.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Engine/external/spdlog/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glew/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal.dir/Labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal.dir/Labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ThirdParty/glfw/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +61,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -133,11 +167,11 @@
     <list>
       <item itemvalue="CMake Application.Editor" />
       <item itemvalue="CMake Application.NGine_Core" />
+      <item itemvalue="CMake Application.uninstall" />
       <item itemvalue="CMake Application.glfw" />
+      <item itemvalue="CMake Application.update_mappings" />
       <item itemvalue="CMake Application.glm" />
       <item itemvalue="CMake Application.spdlog" />
-      <item itemvalue="CMake Application.uninstall" />
-      <item itemvalue="CMake Application.update_mappings" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -193,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727789557253</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="just wait">
+      <created>1727789966277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727789966277</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +255,7 @@
     <MESSAGE value="working on build system" />
     <MESSAGE value="removing a dep" />
     <MESSAGE value="vulkan boilerplate is ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="vulkan boilerplate is ready" />
+    <MESSAGE value="just wait" />
+    <option name="LAST_COMMIT_MESSAGE" value="just wait" />
   </component>
 </project>

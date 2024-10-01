@@ -20,6 +20,7 @@ rule CUSTOM_COMMAND
 
 
 #############################################
+<<<<<<< HEAD
 # Rule for compiling CXX files.
 
 rule CXX_COMPILER__Editor_Debug
@@ -115,6 +116,8 @@ rule CXX_STATIC_LIBRARY_LINKER__spdlog_Debug
 
 
 #############################################
+=======
+>>>>>>> master
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE

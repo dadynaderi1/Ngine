@@ -1,0 +1,129 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ThirdParty",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-ThirdParty-Debug-7af30cb6e099ffd57e57.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ThirdParty"
+				},
+				{
+					"build" : "ThirdParty/glfw",
+					"jsonFile" : "directory-ThirdParty.glfw-Debug-ae6a4740a6d6abff72c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/glfw",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ThirdParty/glew",
+					"jsonFile" : "directory-ThirdParty.glew-Debug-b39c31754cb743e99812.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "ThirdParty/glew",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "NGine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "GLEW_internal::@e1748af11a933fcee5f6",
+					"jsonFile" : "target-GLEW_internal-Debug-c7ce8ec120b88c7fb592.json",
+					"name" : "GLEW_internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "GLFW_internal::@eacb3d8d312e3735715f",
+					"jsonFile" : "target-GLFW_internal-Debug-6b7f6ff869ec4419d1b1.json",
+					"name" : "GLFW_internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NGine_Core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NGine_Core-Debug-400483dbbef8c4f8d0b4.json",
+					"name" : "NGine_Core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "N:/NGine/cmake-build-debug",
+		"source" : "N:/NGine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

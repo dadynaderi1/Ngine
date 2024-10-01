@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 N:/NGine/cmake-build-debug/CMakeFiles/install/local.dir
 N:/NGine/cmake-build-debug/CMakeFiles/install.dir
 N:/NGine/cmake-build-debug/CMakeFiles/edit_cache.dir
@@ -59,3 +60,16 @@ N:/NGine/cmake-build-debug/Engine/external/spdlog/CMakeFiles/edit_cache.dir
 N:/NGine/cmake-build-debug/Engine/external/spdlog/CMakeFiles/rebuild_cache.dir
 N:/NGine/cmake-build-debug/Engine/external/spdlog/CMakeFiles/list_install_components.dir
 N:/NGine/cmake-build-debug/Engine/external/spdlog/CMakeFiles/install/strip.dir
+=======
+N:/NGine/cmake-build-debug/CMakeFiles/NGine_Core.dir
+N:/NGine/cmake-build-debug/CMakeFiles/edit_cache.dir
+N:/NGine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/CMakeFiles/edit_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/CMakeFiles/rebuild_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/GLFW_internal.dir
+N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/edit_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/glfw/CMakeFiles/rebuild_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/GLEW_internal.dir
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/edit_cache.dir
+N:/NGine/cmake-build-debug/ThirdParty/glew/CMakeFiles/rebuild_cache.dir
+>>>>>>> master

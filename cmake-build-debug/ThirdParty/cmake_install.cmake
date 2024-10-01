@@ -1,4 +1,4 @@
-# Install script for directory: N:/NGine
+# Install script for directory: N:/NGine/ThirdParty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
-  include("N:/NGine/cmake-build-debug/App/cmake_install.cmake")
-  include("N:/NGine/cmake-build-debug/Engine/cmake_install.cmake")
-=======
-  include("N:/NGine/cmake-build-debug/ThirdParty/cmake_install.cmake")
->>>>>>> master
+  include("N:/NGine/cmake-build-debug/ThirdParty/glfw/cmake_install.cmake")
+  include("N:/NGine/cmake-build-debug/ThirdParty/glew/cmake_install.cmake")
 
 endif()
 
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "N:/NGine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
