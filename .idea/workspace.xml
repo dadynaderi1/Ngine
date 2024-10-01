@@ -22,7 +22,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958e5186-33e3-4fd0-8e7c-da8e0cde179a" name="Changes" comment="just wait" />
+    <list default="true" id="958e5186-33e3-4fd0-8e7c-da8e0cde179a" name="Changes" comment="just wait">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +153,7 @@
       <updated>1727754203030</updated>
       <workItem from="1727754204918" duration="11462000" />
       <workItem from="1727776217009" duration="13266000" />
-      <workItem from="1727807564678" duration="77000" />
+      <workItem from="1727807564678" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="working on build system">
       <created>1727783147868</created>
@@ -208,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727807610684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="just wait">
+      <created>1727807654802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727807654802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

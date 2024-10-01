@@ -49,3 +49,4 @@ _deps/
 CMakeUserPresets.json
 **.cmake
 **.ninja
+./cmake-build-debug/
