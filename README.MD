@@ -1,10 +1,10 @@
-#Dependencies
+# Dependencies
 - GLFW3
 - GLM
 - VULKAN
 
 just install the sdk for vulkan
-##Build
+## Build
 
 ```bash
 git clone
